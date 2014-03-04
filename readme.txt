@@ -7,19 +7,20 @@ Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-ORBTR Ping is a free lead tracking plugin for WordPress websites. Ping tracks all your visitors/leads and notifies you in real-time via email when a lead returns to your website. 
+ORBTR Ping is a free lead tracking plugin. watching your traffic & notifying you in real-time when a lead returns! 
 
 == Description ==
 
-It's important for any business to understand how their best leads use their company's website. ORBTR Ping helps you do exactly that, tracking the behavior of individual leads and visitors and notifying you in real time when a lead returns to your site.
-ORBTR Ping Includes the following:
-*	Tracking for all site visitors and leads
-*	Real-time email alerts for new and returning leads
-*	A daily email summary of lead traffic
-*	A real-time dashboard telling you who is using your website right now
-*	Integration with Gravity Forms, Jetpack Forms and WordPress Comments for lead identification
-*	Ability to track leads who click from email campaigns
-
+<p>It's important for any business to understand how their best leads use their company's website. ORBTR Ping helps you do exactly that, tracking the behavior of individual leads and visitors and notifying you in real time when a lead returns to your site.</p>
+<p><strong>ORBTR Ping Includes the following:</strong></p>
+<ul>
+<li>Tracking for all site visitors and leads</li>
+<li>Real-time email alerts for new and returning leads</li>
+<li>A daily email summary of lead traffic</li>
+<li>A real-time dashboard telling you who is using your website right now</li>
+<li>Integration with Gravity Forms, Jetpack Forms and WordPress Comments for lead identification</li>
+<li>Ability to track leads who click from email campaigns</li>
+</ul>
 
 == Installation ==
 
