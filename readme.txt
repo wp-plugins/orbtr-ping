@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-ORBTR Ping is a free lead tracking plugin. watching your traffic & notifying you in real-time when a lead returns! 
+ORBTR Ping is a free lead tracking plugin. Watching your traffic & notifying you in real-time when a lead returns! 
 
 == Description ==
 
@@ -23,10 +23,6 @@ ORBTR Ping is a free lead tracking plugin. watching your traffic & notifying you
 </ul>
 
 == Installation ==
-
-This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload the ORBTR Ping plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
