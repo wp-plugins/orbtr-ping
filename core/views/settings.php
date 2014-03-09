@@ -35,6 +35,7 @@
 				<?php
 					$checked = '';
 					$checked2 = '';
+                  $checked3 = '';
 					if ($options['email_new'] == 1)
 					{
 						$checked = array('checked' => 'checked');	
