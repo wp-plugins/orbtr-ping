@@ -21,7 +21,6 @@ class OrbtrConnect extends OrbtrPluginObject
 		
 		add_action('admin_init', array($this, 'load_scripts'));
 		add_action('grunion_pre_message_sent', array('OrbtrJetpackTracking', 'formHandler'), 10, 3);
-       add_action('media_buttons', array($this, 'add_form_button'), 20);
        
 		$track_comments = $this->models->settings->getSetting('orbtr_track_comments');
 		
@@ -34,23 +33,6 @@ class OrbtrConnect extends OrbtrPluginObject
 		add_action('admin_init', array($this->settings, 'saveForm'));
 
 		parent::__construct();
-    }
-    
-    public function add_form_button()
-    {
-        echo '<style>.orbtr_media_icon{
-                    background:url(' . $this->getPluginUrl() . '/assets/admin/images/orbtr.png) left -38px no-repeat;
-                    display: inline-block;
-                    height: 16px;
-                    margin: 0 2px 0 0;
-                    vertical-align: text-top;
-                    width: 16px;
-                    }
-                    .wp-core-ui a.orbtr_media_link{
-                     padding-left: 0.4em;
-                    }
-                 </style>
-                  <a href="#TB_inline?width=480&inlineId=select_orbit_widget" class="thickbox button orbtr_media_link" id="add_orbit_widget" title="' . __("Add Orbit Widget", 'orbtr_ping') . '"><span class="orbtr_media_icon "></span> ' . __("Add Orbit Widget", "orbtr_ping") . '</a>';
     }
     
 	public function load_scripts()
