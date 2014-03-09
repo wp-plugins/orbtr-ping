@@ -3,7 +3,7 @@ Contributors: mshihinski, erikwolf
 Tags: lead tracking, nurturing, marketing, sales, email marketing, Jetpack, Gravity Forms
 Requires at least: 3.5
 Tested up to: 3.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,9 @@ Complete instructions are included in the ORBTR Ping documentation you will rece
 5. The Ping WordPress Dashboard widget gives you a quick look at your traffic when you first log into WordPress.
 
 == Changelog ==
+
+= 1.0.2 =
+* Fix error on ORBTR Ping configuration page.
 
 = 1.0.1 =
 * Remove broken media button from pages/posts.
