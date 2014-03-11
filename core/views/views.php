@@ -95,7 +95,7 @@
                             </span>
                         </span>
                         <?php
-                            $loc = split(', ',$viewInfo->citystate);
+                            $loc = array_map('trim', explode(',', $viewInfo->citystate));
                             if (isset($loc[1]) && (strtolower(trim($country)) != 'us' && strtolower(trim($country)) != 'ca')) $loc[1] = strtoupper($country);
                             $viewInfo->citystate = implode(', ', $loc);
                         ?>

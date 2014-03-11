@@ -185,7 +185,7 @@ class Orbtr_LeadsController
 		
 		$pager = new Pager(add_query_arg($linkparams, 'admin.php?page='.$_GET['page']));
 		$start = $pager->findStart($limit);
-		$count = (int)$leads->total;
+		$count = isset($leads->total) ? $leads->total : 0;
 		$pages = $pager->findPages($count, $limit);
 		
 		require(ORBTR_CONNECT_PATH.'/core/views/leads.php');

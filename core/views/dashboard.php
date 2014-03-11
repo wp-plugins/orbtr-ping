@@ -39,7 +39,7 @@
                 <ul>
                 	<?php foreach ($stats->online_visitors as $visitor): ?>
 					<?php
-						$loc = split(', ',$visitor->location);
+						$loc = array_map('trim', explode(',', $visitor->location));
 						if (isset($loc[1]) && (strtolower($visitor->country) != 'us' && strtolower($visitor->country) != 'ca')) $loc[1] = strtoupper($visitor->country);
 						$visitor->location = implode(', ', $loc);
 					?>
@@ -71,7 +71,7 @@
                 <ul>
                 	<?php foreach ($stats->online_leads as $lead): ?>
 					<?php
-						$loc = split(', ',$lead->location);
+						$loc = array_map('trim', explode(',', $lead->location));
 						if (isset($loc[1]) && (strtolower($lead->country) != 'us' && strtolower($lead->country) != 'ca')) $loc[1] = strtoupper($lead->country);
 						$lead->location = implode(', ', $loc);
 					?>
@@ -101,7 +101,7 @@
                 <ul>
                 	<?php foreach ($stats->recent_visitors as $lead): ?>
 					<?php
-						$loc = split(', ',$lead->location);
+						$loc = array_map('trim', explode(',', $lead->location));
 						if (isset($loc[1]) && (strtolower($lead->country) != 'us' && strtolower($lead->country) != 'ca')) $loc[1] = strtoupper($lead->country);
 						$lead->location = implode(', ', $loc);
 					?>
@@ -130,7 +130,7 @@
                 <ul>
                 	<?php foreach ($stats->recent_leads as $lead): ?>
 					<?php
-						$loc = split(', ',$lead->location);
+						$loc = array_map('trim', explode(',', $lead->location));
 						if (isset($loc[1]) && (strtolower($lead->country) != 'us' && strtolower($lead->country) != 'ca')) $loc[1] = strtoupper($lead->country);
 						$lead->location = implode(', ', $loc);
 					?>

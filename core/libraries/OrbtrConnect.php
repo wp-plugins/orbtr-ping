@@ -152,6 +152,11 @@ class OrbtrConnect extends OrbtrPluginObject
                         'pageCallback'
                     )
                 );
+                
+                add_action('load-'.$this->dash_page, array($this, 'adminLoad'));
+                add_action('load-'.$this->online_page, array($this, 'adminLoad'));
+                add_action('load-'.$this->leads_page, array($this, 'adminLoad'));
+                add_action('load-'.$this->settings_page, array($this, 'adminLoad'));
 			}
 			else
 			{
@@ -166,12 +171,9 @@ class OrbtrConnect extends OrbtrPluginObject
                         'pageCallback'
                     )
                 );
+                
+                add_action('load-'.$this->settings_page, array($this, 'adminLoad'));
 			}
-			
-			add_action('load-'.$this->dash_page, array($this, 'adminLoad'));
-			add_action('load-'.$this->online_page, array($this, 'adminLoad'));
-			add_action('load-'.$this->leads_page, array($this, 'adminLoad'));
-			add_action('load-'.$this->settings_page, array($this, 'adminLoad'));
         }
 	}
 	
