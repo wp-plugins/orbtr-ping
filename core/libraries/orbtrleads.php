@@ -69,7 +69,7 @@ class GFOrbtrLeads {
         	foreach($forms as $form) 
 			{
         		$form = RGFormsModel::get_form_meta($form->id);
-        		if(is_array($form) && ($form['enableOrbtr'] == 1)) 
+        		if(is_array($form) && (isset($form['enableOrbtr']) && $form['enableOrbtr'] == 1)) 
 				{
         			$activeforms[] = $form['id'];
         		}
@@ -382,7 +382,7 @@ class GFOrbtrLeads {
 		$formid = $form_meta['id'];
 		
 		// Form Form Settings > Advanced > Enable Highrise
-		if(!empty($form_meta['enableOrbtr'])) { $orbtr = true; }
+		if(isset($form_meta['enableOrbtr']) && !empty($form_meta['enableOrbtr'])) { $orbtr = true; }
 		
 	   //displaying all submitted fields
 		foreach($form_meta["fields"] as $field){

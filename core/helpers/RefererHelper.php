@@ -17,32 +17,32 @@ class RefererHelper
 		
 		$url = urldecode($this->referer);
 		// Google
-		if (stristr("www\.google",$url)) {
+		if (stristr($url, "www\.google")) {
 			preg_match("'(\?|&)q=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'Google';
 		}
 		// AllTheWeb
-		if (stristr("www\.alltheweb",$url)) {
+		if (stristr($url, "www\.alltheweb")) {
 			preg_match("'(\?|&)q=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'AllTheWeb';
 		}
 		// MSN
-		if (stristr("search\.msn",$url)) {
+		if (stristr($url, "search\.msn")) {
 			preg_match("'(\?|&)q=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'MSN';
 		}
 		// Bing
-		if (stristr("www\.bing",$url)) {
+		if (stristr($url, "www\.bing")) {
 			preg_match("'(\?|&)q=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'Bing';
 		}
 		// Yahoo
-		if ((stristr("yahoo\.com",$url)) or (stristr("search\.yahoo",$url))) {
+		if ((stristr($url, "yahoo\.com")) or (stristr("search\.yahoo",$url))) {
 			preg_match("'(\?|&)p=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'Yahoo';
 		}
 		// Looksmart
-		if (stristr("looksmart\.com",$url)) {
+		if (stristr($url, "looksmart\.com")) {
 			preg_match("'(\?|&)qt=(.*?)(&|$)'si", " $url ", $keywords);
 			$search_engine = 'Looksmart';
 		}
