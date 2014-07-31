@@ -13,7 +13,7 @@ ORBTR Ping is a free lead tracking plugin. Watching your traffic & notifying you
 
 <p>ORBTR Ping is a free lead tracking plugin that watches your traffic & notifies you in real-time when a lead returns!</p>
 
-<p>It's important for any business to understand how their best leads use their company's website. ORBTR Ping helps you do exactly that, tracking the behavior of individual leads and visitors and notifying you in real time when a lead returns to your site.<p>
+<p>It's important for any business to understand how their best leads use their company's website. ORBTR Ping helps you do exactly that, tracking the behavior of individual leads and visitors and notifying you in real time when a lead returns to your site.</p>
 
 <p><strong>ORBTR Ping Includes the following features:</strong></p>
 
