@@ -11,35 +11,31 @@ ORBTR Ping is a free lead tracking plugin. Watching your traffic & notifying you
 
 == Description ==
 
-<p>ORBTR Ping is a free lead tracking plugin that watches your traffic & notifies you in real-time when a lead returns!</p>
+ORBTR Ping is a free lead tracking plugin that watches your traffic & notifies you in real-time when a lead returns!
 
 It's important for any business to understand how their best leads use their company's website. ORBTR Ping helps you do exactly that, tracking the behavior of individual leads and visitors and notifying you in real time when a lead returns to your site.
 
-<p><strong>ORBTR Ping Includes the following features:</strong></p>
+<strong>ORBTR Ping Includes the following features:</strong>
 
-<ul>
-    <li>Tracking for all site visitors and leads</li>
-    <li>Real-time email alerts for new and returning leads</li>
-    <li>A daily email summary of lead traffic</li>
-    <li>A real-time dashboard telling you who is using your website right now</li>
-    <li>Integration with Gravity Forms, Jetpack Forms and WordPress Comments for lead identification</li>
-    <li>Ability to track leads who click from email campaigns</li>
-</ul>
+* Tracking for all site visitors and leads
+* Real-time email alerts for new and returning leads
+* A daily email summary of lead traffic
+* A real-time dashboard telling you who is using your website right now
+* Integration with Gravity Forms, Jetpack Forms and WordPress Comments for lead identification
+* Ability to track leads who click from email campaigns
 
-<p><strong>Upgrade to the full version of ORBTR for:</strong></p>
 
-<ul>
-<li>Marketing automation</li>
-<li>Segmentation</li>
-<li>MailChimp integration</li>
-<li>Email marketing</li>
-<li>Autoresponders</li>
-<li>WooCommerce integration</li>
-<li>Customize WordPress content and widgets based on visitor segment</li>
-<li>Membership plugin integrations</li>
-<li>Zapier integration</li>
-<li>Landing pages</li>
-</ul>
+<strong>Upgrade to the full version of ORBTR for:</strong>
+
+* Marketing automation
+* Segmentation* MailChimp integration
+* Email marketing* Autoresponders
+* WooCommerce integration
+* Customize WordPress content and widgets based on visitor segment
+* Membership plugin integrations
+* Zapier integration
+* Landing pages
+
 
 == Installation ==
 
