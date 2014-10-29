@@ -3,7 +3,7 @@
 Plugin Name: ORBTR Ping
 Plugin URI: http://orbtr.net
 Description: ORBTR Dashboard for viewing your lead tracking from within WordPress.
-Version: 1.0.5
+Version: 1.0.6
 Author: Michael Shihinski
 Author URI: http://orbtr.net
 Text Domain: orbtr_ping
