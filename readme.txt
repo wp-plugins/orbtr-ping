@@ -2,8 +2,8 @@
 Contributors: mshihinski, erikwolf
 Tags: marketing automation, comments, membership, plugin, admin, notifications, alerts, lead generation, analytics, CRM, woocommerce, mailchimp, zapier, hubspot, ORBTR, landing pages, orbiter, autoresponders, widgets,  email marketing, gravity forms, jetpack, lead tracking, marketing, nurturing, sales
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 1.0.6
+Tested up to: 4.0.01
+Stable tag: 1.0.7
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ Complete instructions are included in the ORBTR Ping documentation you will rece
 5. The Ping WordPress Dashboard widget gives you a quick look at your traffic when you first log into WordPress.
 
 == Changelog ==
+
+= 1.0.7 =
+* Minor bug fixes.
 
 = 1.0.6 =
 * Minor display issues fixed.
