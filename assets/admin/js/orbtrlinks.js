@@ -17,8 +17,12 @@ var orbtrlinks;
 			$('.append_orbtr')
 				.on('click', function(e) {
 					var el = $('#url-field'),
-						text = el.val()
+						text = ''
 					;
+                
+                    if (!el.length) el = $('#wp-link-url');
+                    text = el.val();
+                
 					separator = text.indexOf('?') !== -1 ? "&amp;" : "?";
 					el.val(text + separator + mergeTag);
 					return false;

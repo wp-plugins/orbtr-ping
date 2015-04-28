@@ -52,7 +52,6 @@ class OrbtrConnect extends OrbtrPluginObject
 	{
 		global $wpdb;
 		$this->createContentDir();
-		GFOrbtrLeads::add_permissions();
 		
 		require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 		

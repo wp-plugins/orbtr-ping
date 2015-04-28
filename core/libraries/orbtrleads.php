@@ -513,8 +513,6 @@ class GFOrbtrLeads {
 		
 		//close connection
 		curl_close($ch);
-		
-		error_log(print_r($result, true), 1, "michael@graphicten.com");
 	}
 	
 	public static function getLabel($temp, $field = '', $input = false){

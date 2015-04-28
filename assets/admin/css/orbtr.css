@@ -1478,14 +1478,6 @@ td.middle-align {
   display: none;
 }
 
-#TB_overlay {
-  z-index: 6000 !important;
-}
-
-#TB_window {
-  z-index: 6001 !important;
-}
-
 #lead-dashboard .campaign-title h2 {
   font-weight: 200 !important;
   color: #4d4d4d;
